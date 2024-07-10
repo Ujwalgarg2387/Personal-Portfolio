@@ -1,6 +1,7 @@
-# Welcome To My Personal Portfolio Design.
+# Portfolio Project.
 
-This is a beautiful yet responsive design of portfolio webapp built with technologies ReactJS + Vite, Tailwindcss.
+This is my personal portfolio website built using React.js, Vite, and Tailwind CSS. It showcases my skills, projects, experience, and contact information.
+It is designed to provide visitors with an overview of my work, skills, projects and background, as well as a means to contact me.
 
 Visit here 🔗 - https://ujwal-garg-portfolio.netlify.app/
 
