@@ -2,7 +2,7 @@
 
 This is a beautiful yet responsive design of portfolio webapp built with technologies ReactJS + Vite, Tailwindcss.
 
-Visit here 🔗 - 
+Visit here 🔗 - https://ujwal-garg-portfolio.netlify.app/
 
 To run this project on your system:
 1. Clone the repo:
