@@ -37,7 +37,7 @@ const About = () => {
             </p>
           </div>
           <div className="mt-8 mb-8 flex justify-center md:justify-start space-x-4">
-            <a href="https://drive.google.com/file/d/1tXlqmt1s3hnFxSoC0fbGdcLd3YZPKWud/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+            <a href="https://drive.google.com/file/d/1U7RbtEnvIt4Eqzbziga_PGVzNxdYXiQF/view?usp=sharing" target="_blank" rel="noopener noreferrer"
               className={`text-md px-8 py-3 rounded-full flex items-center 
               transition duration-300 ease-in-out transform hover:scale-110 border
               ${isDarkMode 
