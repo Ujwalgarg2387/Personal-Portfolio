@@ -1,40 +1,61 @@
 import React, {useContext} from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaPlay, FaCode, FaLaptopCode } from 'react-icons/fa';
-// import { HiArrowRight } from "react-icons/hi";
+import { HiArrowRight } from "react-icons/hi";
 import image1 from '../assets/1.png';
 import image2 from '../assets/2.png';
 import image3 from '../assets/3.png';
+import image4 from '../assets/4.png';
+import image5 from '../assets/5.png';
 import { ThemeContext } from '../context/ThemeContext';
 
-const projectsData = [
+export const projectsData = [
   {
     id:1,
-    projectName: "Chat Application",
-    projectDesc: "This project aims to build a functional chat application with modern UI/UX design that enables users to search and communicate with others in real-time.",
-    tags: ["React", "TailWindCSS", "Firebase"],
-    code: "https://github.com/Ujwalgarg2387/Reactjs-firebase-Chatapp",
-    demo: "https://react-firebase-chatapp.netlify.app/",
-    image: image1,
-  },
-  {
-    id:2,
     projectName: "Agriculture Crop Prediction",
     projectDesc: "This is a ML based predictive model developed that suggest suitable crop to grow in the given climatic & soil conditions such as Rainfall, pH, N, P, Humidity, Temperature, etc.",
     tags: ["ML", "Python", "Reactjs"],
     code: "https://github.com/Ujwalgarg2387/Agriculture-Crop-Predictor",
     demo: "https://github.com/Ujwalgarg2387/Agriculture-Crop-Predictor",
+    image: image1,
+  },
+  {
+    id:2,
+    projectName: "Chat Application",
+    projectDesc: "This project aims to build a functional chat application with modern UI/UX design that enables users to search and communicate with others in real-time.",
+    tags: ["React", "TailWindCSS", "Firebase"],
+    code: "https://github.com/Ujwalgarg2387/Reactjs-firebase-Chatapp",
+    demo: "https://react-firebase-chatapp.netlify.app/",
     image: image2,
   },
   {
     id:3,
+    projectName: "User Authentication with JWT",
+    projectDesc: "This project is a simple user authentication system. This effective and simple user authentication system is built in such a way that it can be used in every project.",
+    tags:["Node.js","React.js", "MySQL db", "JWT"],
+    code: "https://github.com/Ujwalgarg2387/UserAuthApp",
+    demo: "https://github.com/Ujwalgarg2387/UserAuthApp",
+    image: image3
+  },
+  {
+    id:4,
+    projectName: "Custom Blob Generator",
+    projectDesc: "This React-based application allows users to generate and customize blobs with dynamic shapes, colors, and gradients.",
+    tags:["React.js", "Chakra-UI", "React Context API"],
+    code: "https://github.com/Ujwalgarg2387/Custom-Blob-Generator",
+    demo: "https://ujwalgarg-custom-blob-generator.netlify.app/",
+    image: image4,
+  },
+  {
+    id:5,
     projectName: "Google Keep Notes",
     projectDesc: "A simple web application that provides users with functionality to create, store, delete short notes/messages",
     tags: ["HTML", "CSS", "JS"],
     code: "https://github.com/Ujwalgarg2387/Google-Keep-Notes",
     demo: "https://ujwalgarg2387.github.io/Google-Keep-Notes/",
-    image: image3,
+    image: image5,
   },
+  
 ];
 
 const Projects = () => {
@@ -84,16 +105,22 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        {/* {projectsData.length > 3 && (
+        {projectsData.length > 3 && (
           <div className="w-full flex justify-end mt-8 pr-8">
-          <Link to="/projects">
-          <button className="w-[150px] h-12 flex items-center justify-between rounded-full text-lg font-medium px-6 bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-200">
-          View All
-          <HiArrowRight className="text-xl p-1 rounded-full bg-blue-600" />
-          </button>
-          </Link>
+            <Link to="/all-projects">
+              <button className={`w-[150px] h-12 flex items-center justify-between 
+              rounded-full text-lg font-medium px-6 transition duration-300 ease-in-out transform hover:scale-110 border
+              ${isDarkMode ? 
+              'hover:bg-dark-bg bg-customOrange text-black hover:text-white border-2 border-customOrange hover:border-white' 
+              : 
+              'bg-customBlue text-white hover:bg-white hover:text-customBlue border-customBlue'}`}>
+                View All
+                <HiArrowRight className={`text-xl p-1 rounded-full ${isDarkMode} ? 'bg-customBlue' : ''`} />
+              </button>
+            </Link>
           </div>
-          )} */}
+        )}
+
       </div>
     </div>
     </section>
