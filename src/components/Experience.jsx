@@ -14,26 +14,27 @@ const Experience = () => {
 
   const experiences = [
     {
-      date: 'Present',
-      title: 'Self-Learning',
-      description: 'ReactJS development',
+      date: 'March 2025 - Present',
+      title: 'Backend Developer',
+      description: 'CliQ India Pvt. Ltd.',
       bgColor: 'hover:bg-blue-100',
       delay: '200'
     },
     {
-      date: '2022-2023',
+      date: 'April 2024 - July 2024',
+      title: 'Software Developer Intern',
+      description: 'Debug Solutions Pvt. Ltd. | Internship',
+      bgColor: 'hover:bg-yellow-100',
+      delay: '200'
+    },
+    {
+      date: 'Dec 2022- Jan 2023',
       title: 'Data Science and ML Intern',
       description: 'The Sparks Foundation | Internship',
       bgColor: 'hover:bg-green-100',
       delay: '200'
     },
-    {
-      date: 'Sept-2023',
-      title: 'Web Developer Intern',
-      description: 'Ingenuity Gaming | Internship',
-      bgColor: 'hover:bg-yellow-100',
-      delay: '200'
-    }
+    
   ];
 
   return (
