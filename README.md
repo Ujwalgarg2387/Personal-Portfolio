@@ -4,7 +4,7 @@ A personal portfolio website built to showcase my work, skills, and experience a
 
 ## 🔗 Live Demo
 
-**[ujwalgarg.netlify.app](https://ujwalgarg.netlify.app)**
+**https://ujwal-garg-portfolio.netlify.app/**
 
 ## 🛠️ Tech Stack
 
