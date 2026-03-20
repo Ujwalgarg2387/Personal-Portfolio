@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0a1120"/>
+  <text x="33" y="43" font-family="monospace" font-size="28" font-weight="700"
+    fill="#ffffff" opacity="0.6" text-anchor="middle">UG</text>
+  <text x="32" y="43" font-family="monospace" font-size="28" font-weight="700"
+    fill="#00d9cc" opacity="0.9" text-anchor="middle">UG</text>
+</svg>
