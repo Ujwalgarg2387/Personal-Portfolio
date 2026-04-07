@@ -10,7 +10,7 @@ export const personal = {
   github: 'https://github.com/UjwalGarg2387',
   linkedin: 'https://www.linkedin.com/in/ujwal-garg-449974198',
   twitter: '',
-  resume: 'https://drive.google.com/file/d/1fJqhH8SWKKfLsXKQkxgPBQwzZ40PnzVn/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1C8Kc7pv-PduEBOIakDb1BG8mGl2OWJtx/view?usp=sharing',
   bio: `Software Engineer with 1.5+ year of experience in full-stack development using Java, Spring Boot, Python, Flutter,
     and React.js. I build scalable web and mobile applications, design RESTful APIs, and manage SQL
     databases — backed by a strong foundation in computer science, software architecture, and problem-solving.`,
