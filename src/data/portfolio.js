@@ -10,7 +10,7 @@ export const personal = {
   github: 'https://github.com/UjwalGarg2387',
   linkedin: 'https://www.linkedin.com/in/ujwal-garg-449974198',
   twitter: '',
-  resume: 'https://drive.google.com/file/d/1C8Kc7pv-PduEBOIakDb1BG8mGl2OWJtx/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1wl4NEyvoJ9qgT0EwcFBU5hqG2HNL_vcT/view?usp=sharing',
   bio: `Software Engineer with 1.5+ year of experience in full-stack development using Java, Spring Boot, Python, Flutter,
     and React.js. I build scalable web and mobile applications, design RESTful APIs, and manage SQL
     databases — backed by a strong foundation in computer science, software architecture, and problem-solving.`,
@@ -33,7 +33,7 @@ export const skills = {
     { name: 'Python (Core Fundamentals)', level: 80 },
     { name: 'RESTful API Design', level: 88 },
     { name: 'PostgreSQL / MySQL / Database Design', level: 82 },
-    { name: 'Firebase', level: 74 },
+    { name: 'Firebase / Supabase', level: 74 },
   ],
   frontend: [
     { name: 'React.js', level: 82 },
@@ -60,6 +60,18 @@ export const skills = {
 export const projects = [
   {
     id: 1,
+    title: 'SquadMatch — Gamers Matchmaking Platform',
+    description: 'Full-stack matchmaking platform enabling players to find teammates based on game, role, and skill level. Implemented swipe-based matching with mutual likes, premium filters, and dynamic user profiles with real-time interaction.',
+    tech: ['Supabase', 'PostgreSQL', 'Authentication', 'Real-time APIs', 'Vite + React.js', 'Tailwind CSS', 'Razorpay'],
+    github: 'https://github.com/Ujwalgarg2387/', // update if different
+    live: null, // add if deployed
+    featured: true,
+    color: '#ff4d6d',
+    icon: '🎮',
+    year: '2025',
+  },
+  {
+    id: 2,
     title: 'Ecommerce Platform',
     description: 'Full-stack e-commerce site with product discovery, search, cart, checkout, favorites, payment integration, and order tracking. JWT + OTP auth with role-based access control and scalable order management.',
     tech: ['Vite + React.js', 'Java', 'Spring Boot', 'PostgreSQL', 'JWT Auth', 'Material UI', 'Tailwind CSS'],
@@ -71,7 +83,7 @@ export const projects = [
     year: '2025',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Panditjee — Spiritual Platform',
     description: 'Full-stack platform for online puja booking, astrology consultations, and live video sessions connecting users with verified spiritual experts. Java Spring Boot backend + Flutter frontend + Python/Llama AI service on Azure.',
     tech: ['Java', 'Spring Boot', 'Flutter', 'Python', 'Azure', 'PostgreSQL', 'GetX', 'REST APIs', 'JWT Auth', 'Llama LLM'],
@@ -83,7 +95,7 @@ export const projects = [
     year: '2026',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Agriculture Crop Predictor',
     description: 'ML model recommending the most suitable crop based on climatic and soil conditions (N, P, pH, rainfall, humidity, temperature). Achieved 96% accuracy — 10% above baseline — using fine-tuned classification algorithms.',
     tech: ['Python', 'Machine Learning', 'Scikit-learn', 'Pandas', 'NumPy', 'React.js', 'HTML', 'CSS'],
@@ -95,7 +107,7 @@ export const projects = [
     year: '2023',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Online Messaging App',
     description: 'Real-time chat application with seamless user communication, user search, profile views, and chat history deletion. Built with Firebase real-time listeners and a modern, accessible UI.',
     tech: ['React.js', 'Firebase', 'Tailwind CSS', 'WebSockets', 'Real-time Data Sync', 'User Authentication'],
@@ -107,7 +119,7 @@ export const projects = [
     year: '2024',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Custom Blob Generator',
     description: 'Interactive web app to generate and customize blobs with dynamic shapes, colors, gradients, opacity, randomness, and complexity — all with real-time preview. Built with React Context API for state management.',
     tech: ['React.js', 'Vite', 'Chakra UI', 'Tailwind CSS', 'React Context API', 'HTML', 'CSS'],
